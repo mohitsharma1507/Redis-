@@ -16,7 +16,7 @@ app.post("/notifications", async (req, res) => {
   );
 
   res.status(200).json({
-    message: `Notification sent to ${receivers} subscribers!`,
+    message: `Notification sent to ${receivers} subscriber!`,
   });
 });
 
