@@ -20,5 +20,5 @@ const app = express();
 app.use(express.json());
 
 app.listen(8529, () => {
-  console.log("Server is running on port 8529");
+  console.log("Server is successfully running on port 8529");
 });
